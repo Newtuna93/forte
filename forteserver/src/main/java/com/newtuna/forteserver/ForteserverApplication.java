@@ -1,13 +1,13 @@
-package com.newtuna.forte;
+package com.newtuna.forteserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ForteApplication {
+public class ForteserverApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ForteApplication.class, args);
+		SpringApplication.run(ForteserverApplication.class, args);
 	}
 
 }
