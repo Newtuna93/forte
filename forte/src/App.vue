@@ -1,15 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App 신동원입니다."/>
+  <!--<HelloWorld msg="Welcome to Your Vue.js App 신동원입니다."/>-->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
+  },
+  methods: {
+
+  },
+  mounted() {
+    
   }
 }
 </script>
